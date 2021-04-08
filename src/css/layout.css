@@ -1,0 +1,12 @@
+#navbar {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background-color: #b19cd9
+}
+
+#container {
+    margin-top: 100px;
+}
