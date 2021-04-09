@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Layout from './components/Layout'
 import Board from './components/Board'
 import Profile from './components/Profile'
+import Signup from './components/Signup'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route exact path={['/','/home']} component={Home}/>
         <Route exact path={'/board/:id'} component={Board}/>
         <Route exact path={'/profile/:id'} component={Profile}/>
+        <Route exact path={'/signup'} component={Signup} />
       </Switch>
     </Layout>
   
