@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import { Draggable } from 'react-beautiful-dnd';
 
 const Container = styled.div`
-  border: 3px solid lightgrey;
-  border-radius: 2px;
+  border: 3px solid orange;
+  border-radius: 20px;
   padding: 8px;
   margin-bottom: 8px;
-  background-color:${props => (props.isDragging ? 'lightblue' : 'white')};
+  background-color:${props => (props.isDragging ? '#b19cd9' : 'white')};
   display: flex;
 
   &:focus {
@@ -20,7 +20,7 @@ const Handle = styled.div`
   width: 20px;
   height: 20px;
   background-color: orange;
-  border-radius: 4px;
+  border-radius: 20px;
   margin-right: 8px;
 `;
 

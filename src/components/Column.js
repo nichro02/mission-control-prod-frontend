@@ -5,24 +5,27 @@ import Task from './Task.js';
 
 const Container = styled.div`
   margin: 8px;
-  border: 1px solid lightgrey;
-  border-radius: 2px;
-  width: 220px;
-  background-color: white;
+  border: 1px solid orange;
+  border-radius: 20px;
+  width: 25%;
+  background-color: #b19cd9;
 
   display: flex;
   flex-direction: column;
 `;
 const Title = styled.h3`
   padding: 8px;
+  text-align: center;
   
 `;
 const TaskList = styled.div`
   padding: 8px;
-  background-color: ${props => (props.isDraggingOver ? 'red' : 'inherit')};
+  background-color: ${props => (props.isDraggingOver ? '#8565c4' : 'inherit')};
   transition: background-color 0.2s ease;
   flex-grow: 1;
   min-height: 100px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 `;
 
 class InnerList extends React.Component {
