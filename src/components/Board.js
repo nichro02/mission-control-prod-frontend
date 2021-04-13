@@ -6,6 +6,9 @@ import data from '../seederData.js'
 
 const Container = styled.div`
   display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
 `
 
 export const InnerList = class InnerList extends React.PureComponent {
