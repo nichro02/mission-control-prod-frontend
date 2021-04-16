@@ -3,7 +3,7 @@ import axios from 'axios'
 //import utils
 import {setItem, getItem, removeItem} from '../utilities/localStorage.utility'
 
-const API_URL="http://localhost:8080/api/auth/"
+const API_URL="http://localhost:8800/auth/"
 //function to register User
 export const register =(username, email, password) => {
     return axios
