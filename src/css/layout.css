@@ -11,8 +11,9 @@
     margin-top: 100px;
 }
 
-.inline h1 {
+.brand h1 {
     display: flex;
+    
 }
 
 .navGrid {
@@ -20,8 +21,16 @@
     align-items: right;
     justify-content: space-between;
     margin-right: 20px;
+    height: 100%;
+    
 }
 
 .navGrid li{
+    margin-top: 12px;
     margin-right: 20px;
+    
+}
+
+.navGrid a{
+    text-decoration: none;
 }

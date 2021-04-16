@@ -24,7 +24,7 @@ const Layout = (props) => {
     return(
         <div>
             <nav id='navbar' class='navGrid'>
-                <Link to={'/home'} class='inline'>
+                <Link to={'/home'} class='brand'>
                     <h1>Mission Control</h1>
                 </Link>
                 <div>
