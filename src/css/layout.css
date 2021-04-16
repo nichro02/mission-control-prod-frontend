@@ -10,3 +10,18 @@
 #container {
     margin-top: 100px;
 }
+
+.inline h1 {
+    display: flex;
+}
+
+.navGrid {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.navGrid li{
+    margin-right: 20px;
+}
